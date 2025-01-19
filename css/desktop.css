@@ -1,0 +1,27 @@
+.grid {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.title {
+    height: 50vh;
+    align-content: end;
+}
+
+.nome {
+    height: 50%;
+    font-size: 7em;
+    align-content: end;
+}
+
+p {
+    margin: 0;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
