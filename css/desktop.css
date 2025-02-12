@@ -1,27 +1,65 @@
-.grid {
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    position: relative;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-.title {
-    height: 50vh;
-    align-content: end;
-}
-
-.nome {
-    height: 50%;
-    font-size: 7em;
-    align-content: end;
+body {
+    background-color: white;
+    margin: 0;
+    font-family: "Jost", serif;
+    height: 300vh;
 }
 
 p {
     margin: 0;
-    font-family: "Jost", serif;
-    font-optical-sizing: auto;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    mix-blend-mode: exclusion;
+}
+
+.menu {
+    width: 15vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header div {
+    margin: 2vw;
+}
+
+.header div p {
+    color: white;
+    font-size: 1.2em;
     font-weight: 500;
-    font-style: normal;
+    margin: 0;
+    transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
+    mix-blend-mode: exclusion;
+}
+
+.header div p:hover {
+    transform: scale(1.15);
+    transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
+}
+
+
+.landing {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.landing div p {
+    margin: 2vw;
+}
+
+.tipo {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.nome {
+    font-size: 6em;
+    font-weight: 120;
 }
