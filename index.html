@@ -28,6 +28,7 @@
 
     <script defer src="js/vue/vue.min.js"></script>
     <script defer src="js/vue/vue-observe-visibility.min.js"></script>
+    <script defer src="js/app.js"></script>
     <link rel="stylesheet" href="css/animate.min.css">
 
 </head>
@@ -35,7 +36,7 @@
 <body>
 
     <!-- Header -->
-    <div class="header"> 
+    <div class="header">
 
         <div>
             <p>home</p>
@@ -49,8 +50,8 @@
     </div>
 
     <!-- Titolo -->
-     <div class="landing">
-        
+    <div class="landing">
+
         <div>
             <p class="tipo">architecture portfolio</p>
         </div>
@@ -59,9 +60,35 @@
             <p class="nome">Petrina Razmovska</p>
         </div>
 
+    </div>
 
-     </div>
+    <!-- Freccia -->
+    <div class="freccia">
+        <img src="images/icone/freccia giù.svg" alt="">
+    </div>
 
+
+    <div class="works">
+        <div>
+            <p class="tipo">work</p>
+        </div>
+
+        <div class="project">
+            <p onmouseover="show(slide1)" onmouseout="hide(slide1)" onmousewheel="" onclick="">mycocell1</p>
+            <p onmouseover="show(slide2)" onmouseout="hide(slide2)" onmousewheel="" onclick="">mycocell2</p>
+            <p onmouseover="show(slide3)" onmouseout="hide(slide3)" onmousewheel="" onclick="">mycocell3</p>
+            <p onmouseover="show(slide4)" onmouseout="hide(slide4)" onmousewheel="" onclick="">mycocell4</p>
+        </div>
+
+        <div class="foto">
+            <img id="slide1" class="slide hidden" src="images/TESI WEBP/01.webp" alt="">
+            <img id="slide2" class="slide hidden" src="images/TESI WEBP/02.webp" alt="">
+            <img id="slide3" class="slide hidden" src="images/TESI WEBP/03.webp" alt="">
+            <img id="slide4" class="slide hidden" src="images/TESI WEBP/04.webp" alt="">
+        </div>
+
+
+    </div>
 
 
 
