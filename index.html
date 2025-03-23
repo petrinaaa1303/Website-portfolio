@@ -39,13 +39,13 @@
     <div class="header">
 
         <div>
-            <p>home</p>
+           <a href="."> <p>home</p> </a>
         </div>
 
         <div class="menu">
-            <p>about</p>
-            <p>work</p>
-            <p>contact</p>
+            <p onclick="go_about()">about</p>
+            <p onclick="go_works()">work</p>
+            <p onclick="go_contact()">contact</p>
         </div>
     </div>
 
@@ -68,25 +68,101 @@
     </div>
 
 
-    <div class="works">
+    <!-- About -->
+    <div class="about" id="about">
+        <div>
+            <p class="tipo">about</p>
+        </div>
+
+        <div class="descrizione">
+            <p>Hello! I am an architect focused on architectural visualization, parametric design, and creative
+                exploration.<br>I’m driven by curiosity and a desire to continually grow, seeking out projects that
+                challenge me to think differently.<br>With a detail-oriented approach, I aim to combine innovation with
+                thoughtful design, creating work that is both meaningful and impactful.</p>
+
+        </div>
+
+        <div class="foto">
+            <img src="images/gradiente/GRADIENT E.png" alt="">
+
+        </div>
+
+    </div>
+
+
+    <!-- Works -->
+    <div class="works" id="works">
         <div>
             <p class="tipo">work</p>
         </div>
 
         <div class="project">
-            <p onmouseover="show(slide1)" onmouseout="hide(slide1)" onmousewheel="" onclick="">mycocell1</p>
-            <p onmouseover="show(slide2)" onmouseout="hide(slide2)" onmousewheel="" onclick="">mycocell2</p>
-            <p onmouseover="show(slide3)" onmouseout="hide(slide3)" onmousewheel="" onclick="">mycocell3</p>
-            <p onmouseover="show(slide4)" onmouseout="hide(slide4)" onmousewheel="" onclick="">mycocell4</p>
+            <p onmouseover="show(slide1)" onmouseout="hide(slide1)" onmousewheel="hide(slide1)" onclick="">mycocell</p>
+            <p onmouseover="show(slide2)" onmouseout="hide(slide2)" onmousewheel="hide(slide2)" onclick="">cloud</p>
+            <p onmouseover="show(slide3)" onmouseout="hide(slide3)" onmousewheel="hide(slide3)" onclick="">meadow of
+                light</p>
+            <p onmouseover="show(slide4)" onmouseout="hide(slide4)" onmousewheel="hide(slide4)" onclick="">stone echoes
+            </p>
+            <p onmouseover="show(slide5)" onmouseout="hide(slide5)" onmousewheel="hide(slide5)" onclick="">the veil</p>
+            <p onmouseover="show(slide6)" onmouseout="hide(slide6)" onmousewheel="hide(slide6)" onclick="">nodo</p>
+            <p onmouseover="show(slide7)" onmouseout="hide(slide7)" onmousewheel="hide(slide7)" onclick="">gate of
+                paradise</p>
+            <p onmouseover="show(slide8)" onmouseout="hide(slide8)" onmousewheel="hide(slide8)" onclick="">zen house</p>
+            <p onmouseover="show(slide9)" onmouseout="hide(slide9)" onmousewheel="hide(slide9)" onclick="">incontro</p>
+            <p onmouseover="show(slide10)" onmouseout="hide(slide10)" onmousewheel="hide(slide10)" onclick="">bobo</p>
+            <p onmouseover="show(slide11)" onmouseout="hide(slide11)" onmousewheel="hide(slide11)" onclick="">tsukiyo
+            </p>
         </div>
 
         <div class="foto">
-            <img id="slide1" class="slide hidden" src="images/TESI WEBP/01.webp" alt="">
-            <img id="slide2" class="slide hidden" src="images/TESI WEBP/02.webp" alt="">
-            <img id="slide3" class="slide hidden" src="images/TESI WEBP/03.webp" alt="">
-            <img id="slide4" class="slide hidden" src="images/TESI WEBP/04.webp" alt="">
+            <img id="slide1" class="slide hidden" src="images/TESI WEBP/MYCOCELLS.webp" alt="">
+            <img id="slide2" class="slide hidden" src="images/CLOUD WEBP/cloudy day normal.webp" alt="">
+            <img id="slide3" class="slide hidden" src="images/KINDERGARTEN/Untitled-1.webp" alt="">
+            <img id="slide4" class="slide hidden" src="images/PROG 4/LIBRARY.webp" alt="">
+            <img id="slide5" class="slide hidden" src="images/STADIO/STADIUM.webp" alt="">
+            <img id="slide6" class="slide hidden" src="images/PIAZZA/PIAZZA.webp" alt="">
+            <img id="slide7" class="slide hidden" src="images/FORMELLA/Untitled-1.webp" alt="">
+            <img id="slide8" class="slide hidden" src="images/ZEN/ZEN HOUSE.webp" alt="">
+            <img id="slide9" class="slide hidden" src="images/INCONTRO/INCONTRO.webp" alt="">
+            <img id="slide10" class="slide hidden" src="images/bobo/bobo.webp" alt="">
+            <img id="slide11" class="slide hidden" src="images/TSUKI/TSUKIYO.webp" alt="">
         </div>
 
+
+    </div>
+
+
+    <!-- Contact -->
+    <div class="contact" id="contact">
+        <div>
+            <p class="tipo">contact</p>
+        </div>
+
+        <div class="social">
+            <a target="_blank" href="mailto:razmovskapetrina@gmail.com" onmouseover="pointer(cursor)"
+                onmouseout="normal(cursor)">
+                <img loading="lazy" src="images/icone/email.svg" alt="email">
+            </a>
+
+            <a target="_blank" href="https://wa.me/393898746875" onmouseover="pointer(cursor)"
+                onmouseout="normal(cursor)">
+                <img loading="lazy" src="images/icone/whatsapp.svg" alt="whatsapp">
+            </a>
+
+            <a target="_blank" href="https://www.linkedin.com/in/petrina-razmovska-993303263/"
+                onmouseover="pointer(cursor)" onmouseout="normal(cursor)">
+                <img loading="lazy" src="images/icone/linkedin.svg" alt="linkedin">
+            </a>
+
+            <a target="_blank" href="documents/CV.pdf" onmouseover="pointer(cursor)" onmouseout="normal(cursor)">
+                <img loading="lazy" src="images/icone/CV.svg" alt="CV">
+            </a>
+
+        </div>
+
+        <div>
+
+        </div>
 
     </div>
 
@@ -94,6 +170,26 @@
 
 </body>
 
+<!-- footer -->
+<footer class="footer">
+    <div>
+        <p>Petrina Razmovska<br>
+
+            razmovskapetrina@gmail.com<br>
+            © 2025 All Rights Reserved.
+        </p>
+
+        
+    </div>
+
+    <div class="up">
+        <img src="images/icone/freccia giù.svg" alt="">
+    </div>
+
+    <div>
+        <p></p>
+    </div>
+</footer>
 
 
 

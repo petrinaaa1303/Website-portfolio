@@ -29,3 +29,30 @@ function show(x) {
   function hide(x) {
     x.classList.add('hidden');
   }
+
+  const about = document.getElementById("about");
+function go_about(x) {
+  about.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+}
+
+const works = document.getElementById("works");
+function go_works(x) {
+  works.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+}
+
+const contact = document.getElementById("contact");
+function go_contact(x) {
+  contact.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+}
+
+
+//go to top
+const backToTopButton = document.querySelector(".up");
+
+const goToTop = () => {
+  document.body.scrollIntoView({
+    behavior: "smooth"
+  });
+};
+
+backToTopButton.addEventListener("click", goToTop);

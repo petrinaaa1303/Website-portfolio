@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: "Jost", serif;
     height: 300vh;
+    cursor: crosshair;
 }
 
 p {
@@ -30,7 +31,7 @@ p {
 
 .header div p {
     color: white;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 500;
     margin: 0;
     transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
@@ -56,12 +57,12 @@ p {
 }
 
 .tipo {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 500;
 }
 
 .nome {
-    font-size: 6em;
+    font-size: 8em;
     font-weight: 120;
 }
 
@@ -77,6 +78,36 @@ p {
 .freccia img {
     width: 100%;
 }
+
+
+.about {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about div {
+    margin: 2vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.descrizione {
+    width: 18vw !important;
+    text-align: center;
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+.descrizione p {
+    margin: 0.3em 0 0.3em 0;
+    font-size: 0.9em;
+}
+
+
 
 .works {
     height: 100vh;
@@ -96,6 +127,7 @@ p {
 .project {
     width: 15vw !important;
     text-align: center;
+    font-size: 1.4em;
 }
 
 .project p {
@@ -104,6 +136,7 @@ p {
 }
 
 .project p:hover {
+    font-weight: 600;
     transform: scale(1.15);
     transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
 }
@@ -123,4 +156,79 @@ p {
 .foto {
     justify-content: center !important;
     position: relative;
+}
+
+
+.contact {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact div {
+    margin: 2vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 30vw;
+}
+
+
+
+.social {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.social img {
+    filter: invert(100%);
+    height: 4em;
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+    mix-blend-mode: difference;
+    transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
+}
+
+.social img:hover {
+    transform: scale(1.15);
+    transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
+}
+
+.footer {
+    background-image: url("/images/gradiente/GRADIENTFOOTR.png");
+    background-clip: border-box;
+    background-size: contain;
+    font-family: "Jost", serif;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer div {
+    width: 30vw;
+    margin: 2vw;
+}
+
+.up {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
+    overflow-y: clip;
+}
+
+
+.up img {
+    transform: rotate(0.5turn);
+    transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
+    overflow-y: clip;
+}
+
+.up img:hover {
+    transform:rotate(0.5turn) scale(1.25);
+    transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
+    overflow-y: clip;
 }
