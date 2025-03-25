@@ -181,7 +181,7 @@ p {
   left: -140vw;
   z-index: -10;
   scale: 0.75;
-  width: 100%;
+  width: 100vw;
 }
 
 .gradient_mob img {
