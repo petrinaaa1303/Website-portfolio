@@ -164,6 +164,18 @@ p {
 }
 
 
+.gradient {
+    justify-content: center !important;
+    position: relative;
+}
+
+.gradient_mob {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+
 .contact {
     height: 100vh;
     display: flex;
