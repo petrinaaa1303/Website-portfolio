@@ -6,31 +6,31 @@ let slide4 = document.getElementById('slide4');
 //up
 //function show() {
 
- //   const up = document.querySelectorAll('.slide');
- //   up.forEach((element) => {
- //       element.classList.remove('hidden');
- //   });
+//   const up = document.querySelectorAll('.slide');
+//   up.forEach((element) => {
+//       element.classList.remove('hidden');
+//   });
 
 //}
 
 //function hide() {
- //   const up = document.querySelectorAll('.slide');
- //   up.forEach((element) => {
- //       element.classList.add('hidden');
- //   });
+//   const up = document.querySelectorAll('.slide');
+//   up.forEach((element) => {
+//       element.classList.add('hidden');
+//   });
 
 //}
 
 
 function show(x) {
-    x.classList.remove('hidden');
-  }
+  x.classList.remove('hidden');
+}
 
-  function hide(x) {
-    x.classList.add('hidden');
-  }
+function hide(x) {
+  x.classList.add('hidden');
+}
 
-  const about = document.getElementById("about");
+const about = document.getElementById("about");
 function go_about(x) {
   about.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
 }
@@ -56,3 +56,6 @@ const goToTop = () => {
 };
 
 backToTopButton.addEventListener("click", goToTop);
+
+
+

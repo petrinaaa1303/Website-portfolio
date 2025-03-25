@@ -2,7 +2,7 @@ body {
     background-color: white;
     margin: 0;
     font-family: "Jost", serif;
-    height: 300vh;
+    
     cursor: crosshair;
 }
 
@@ -27,6 +27,10 @@ p {
 
 .header div {
     margin: 2vw;
+}
+
+.header div a {
+    text-decoration: none;
 }
 
 .header div p {
@@ -128,6 +132,7 @@ p {
     width: 15vw !important;
     text-align: center;
     font-size: 1.4em;
+    z-index: 10;
 }
 
 .project p {
@@ -231,4 +236,11 @@ p {
     transform:rotate(0.5turn) scale(1.25);
     transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
     overflow-y: clip;
+}
+
+
+a {
+    cursor: crosshair;
+    text-decoration: none;
+    color: inherit;
 }
