@@ -63,12 +63,12 @@ p {
 .landing div p {}
 
 .tipo {
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: 600;
 }
 
 .nome {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 120;
   line-height: 0.9em;
   margin-top: 0.3em;
@@ -78,7 +78,7 @@ p {
   transform: translateX(-4vw);
   width: 15vw;
   left: 50vw;
-  top: 90vh;
+  top: 80vh;
   position: absolute;
   scale: 2;
 }
