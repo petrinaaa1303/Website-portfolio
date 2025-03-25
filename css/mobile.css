@@ -181,6 +181,7 @@ p {
   left: -140vw;
   z-index: -10;
   scale: 0.75;
+  overflow: hidden;
 }
 
 
