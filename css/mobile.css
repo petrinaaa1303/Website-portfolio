@@ -181,9 +181,12 @@ p {
   left: -140vw;
   z-index: -10;
   scale: 0.75;
-  overflow: hidden;
+  width: 100%;
 }
 
+.gradient_mob img {
+  overflow: hidden;
+}
 
 .contact {
   height: 100vh;
