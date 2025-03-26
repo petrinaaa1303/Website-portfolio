@@ -186,7 +186,9 @@ p {
 
 
 .gradient_mob {
-  background-position: -160vw -60vh;
+  background-size: 220vw auto;
+  background-repeat: no-repeat;
+  background-position: -100vw -40vh;
   width: 100vw;
   height: 100vh;
   background-image: url("/images/gradiente/GRADIENT E.png");
