@@ -24,13 +24,13 @@ p {
   width: 100vw;
   position: fixed;
   top: 0;
+  overflow-x: hidden;
 }
 
 .menu {
   padding: 7vw 10vw;
   display: flex;
   justify-content: space-between;
-
 }
 
 .header div {}
@@ -58,6 +58,7 @@ p {
   height: 50vh;
   align-items: center;
   margin: 50vh 10vw 0 10vw;
+  overflow-x: hidden;
 }
 
 
@@ -94,6 +95,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: end;
+  overflow-x: hidden;
 }
 
 .about div {
@@ -107,7 +109,7 @@ p {
   width: 100vw !important;
   text-align: center;
   text-align: justify;
-  margin: 0 10vw 25vw 10vw;
+  margin: 0 10vw 20vw 10vw;
 }
 
 .descrizione p {
@@ -190,10 +192,11 @@ p {
   z-index: -10;
   scale: 0.75;
   width: 100vw;
+  
 }
 
 .gradient_mob img {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .contact {
