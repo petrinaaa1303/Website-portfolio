@@ -187,16 +187,15 @@ p {
 
 .gradient_mob {
   position: absolute;
-  top: -60vh;
-  left: -120vw;
   z-index: -10;
-  scale: 0.75;
-  width: 100vw;
-  
 }
 
 .gradient_mob img {
-  overflow: hidden;
+  position: absolute;
+  top: -10vh;
+  left: -50vw;
+  scale: 3;
+  width: 100vw;
 }
 
 .contact {
