@@ -93,7 +93,7 @@ p {
   height: 100vh;
   display: flex;
   justify-content: space-between;
-  align-items: last baseline;
+  align-items: end;
 }
 
 .about div {
@@ -107,7 +107,7 @@ p {
   width: 100vw !important;
   text-align: center;
   text-align: justify;
-  margin: 0 10vw 10vw 10vw;
+  margin: 0 10vw 15vw 10vw;
 }
 
 .descrizione p {
