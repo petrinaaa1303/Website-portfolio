@@ -47,8 +47,7 @@ p {
   margin: 0;
 }
 
-.header div p:hover {
-}
+.header div p:hover {}
 
 
 .landing {
@@ -141,8 +140,7 @@ p {
   margin: 0.3em 0 0.3em 0;
 }
 
-.project p:hover {
-}
+.project p:hover {}
 
 .slide {
   position: absolute;
@@ -211,8 +209,7 @@ p {
   margin: 2vw;
 }
 
-.social img:hover {
-}
+.social img:hover {}
 
 .footer {
   background-image: url("/images/gradiente/GRADIENTFOOTR.png");
@@ -231,23 +228,15 @@ p {
 }
 
 .up {
+  translate: 0 10vh;
   display: flex;
-  justify-content: space-around;
-  height: 100%;
-  transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
-  overflow-y: clip;
+  justify-content: center;
+  height: 50%;
 }
 
 
 .up img {
   transform: rotate(0.5turn);
-  transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
-  overflow-y: clip;
-}
-
-.up img:hover {
-  transform:rotate(0.5turn) scale(1.25);
-  transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
   overflow-y: clip;
 }
 
