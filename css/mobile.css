@@ -44,13 +44,9 @@ p {
   font-size: 1.5em;
   font-weight: 500;
   margin: 0;
-  transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
-  
 }
 
 .header div p:hover {
-  transform: scale(1.15);
-  transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
 }
 
 
@@ -127,7 +123,6 @@ p {
 }
 
 .works div {
-  margin: 2vw;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -135,7 +130,7 @@ p {
 }
 
 .project {
-  width: 15vw !important;
+  width: 80vw !important;
   text-align: center;
   font-size: 1.4em;
   z-index: 10;
@@ -143,25 +138,19 @@ p {
 
 .project p {
   margin: 0.3em 0 0.3em 0;
-  transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
 }
 
 .project p:hover {
-  font-weight: 600;
-  transform: scale(1.15);
-  transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
 }
 
 .slide {
   position: absolute;
-  width: 100%;
-  opacity: 100%;
-  transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
+  width: 0%;
+  opacity: 0%;
 }
 
 .hidden {
   opacity: 0%;
-  transition: 0.2s cubic-bezier(0.5, 0.7, 0.4, 1);
 }
 
 .foto {
