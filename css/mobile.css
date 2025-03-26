@@ -24,7 +24,7 @@ p {
   width: 100vw;
   position: fixed;
   top: 0;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .menu {
@@ -58,7 +58,7 @@ p {
   height: 50vh;
   align-items: center;
   margin: 50vh 10vw 0 10vw;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 
@@ -95,7 +95,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: end;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .about div {
@@ -196,7 +196,7 @@ p {
 }
 
 .gradient_mob img {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .contact {
