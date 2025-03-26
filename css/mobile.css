@@ -186,16 +186,13 @@ p {
 
 
 .gradient_mob {
+  background-position: -160vw -60vh;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/gradiente/GRADIENT E.png");
+  background-clip: border-box;
   position: absolute;
   z-index: -10;
-}
-
-.gradient_mob img {
-  position: absolute;
-  top: -10vh;
-  left: -50vw;
-  scale: 3;
-  width: 100vw;
 }
 
 .contact {
