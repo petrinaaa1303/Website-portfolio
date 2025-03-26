@@ -55,7 +55,7 @@ p {
 
 
 .landing {
-  height: 100vh;
+  height: 50vh;
   align-items: center;
   margin: 50vh 10vw 0 10vw;
 }
@@ -93,27 +93,26 @@ p {
   height: 100vh;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: last baseline;
 }
 
 .about div {
-  margin: 2vw;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  width: 30vw;
+  width: 0;
 }
 
 .descrizione {
-  width: 18vw !important;
+  width: 100vw !important;
   text-align: center;
-  font-size: 1.4em;
   text-align: justify;
+  margin: 0 10vw 10vw 10vw;
 }
 
 .descrizione p {
-  margin: 0.3em 0 0.3em 0;
-  font-size: 0.9em;
+  font-size: 1.4em;
+  font-weight: 350;
 }
 
 
@@ -177,19 +176,24 @@ p {
   height: 0;
 }
 
+.gradient img {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+
 .gradient_mob {
   position: absolute;
   top: -60vh;
-  left: -140vw;
+  left: -120vw;
   z-index: -10;
   scale: 0.75;
   width: 100vw;
-  overflow-x: hidden;
 }
 
 .gradient_mob img {
   overflow: hidden;
-  overflow-x: hidden;
 }
 
 .contact {
