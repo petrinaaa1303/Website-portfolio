@@ -91,6 +91,25 @@ function showSlides1(n) {
   slides1[slideIndex1-1].style.display = "block";
 }
 
+//12
+let slideIndex12 = 1;
+showSlides12((slideIndex12));
+
+function plusSlides12(n) {
+  showSlides12(slideIndex12 += n);
+}
+function showSlides12(n) {
+  let i12;
+  let slides12 = document.getElementsByClassName("Slides12");
+  if (n > slides12.length) {slideIndex12 = 1}
+  if (n < 1) {slideIndex12 = slides12.length}
+  for (i12 = 0; i12 < slides12.length; i12++) {
+    slides12[i12].style.display = "none";
+  }
+  slides12[slideIndex12-1].style.display = "block";
+}
+
+
 
 //2
 let slideIndex2 = 1;
